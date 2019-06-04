@@ -48,18 +48,21 @@ public class BookSellerUtil {
        public  static final String SHAREDPREFS_USERDETAILS="USER_DETAILS";
 
 
+       public static final String URL = "https://taniaanand31.000webhostapp.com/bookdig/";
+
+
        // links to all our URL's
-       public static final String URL_INSERT="https://taniaanand31.000webhostapp.com/bookdig/insert.php";
-       public static final String URL_LOGINCHECK="https://taniaanand31.000webhostapp.com/bookdig/loginQuery.php";
-       public static final String URL_RETRIEVE="https://taniaanand31.000webhostapp.com/bookdig/retrieveRegistration.php";
-       public static final String URL_UPDATE="https://taniaanand31.000webhostapp.com/bookdig/update.php";
-       public static final String URL_ITEMINSERT="https://taniaanand31.000webhostapp.com/bookdig/insertitem.php";
-       public static final String URL_DELETE_ITEM="https://taniaanand31.000webhostapp.com/bookdig/deleteUserItem.php";
-       public static final String URL_RETRIEVE_ITEM="https://taniaanand31.000webhostapp.com/bookdig/retrieveItem.php";
-       public static final String URL_RETRIEVE_USERITEM="https://taniaanand31.000webhostapp.com/bookdig/retrieveUserItems.php";
-       public static final String URL_RETRIEVE_ALLITEMS="https://taniaanand31.000webhostapp.com/bookdig/retrieveALL.php";
-       public static final String URL_UPDATE_ITEM="https://taniaanand31.000webhostapp.com/bookdig/updateItem.php";
-       public static final String URL_RETRIEVE_PHONENO="https://taniaanand31.000webhostapp.com/bookdig/rPhoneNo.php";
+       public static final String URL_INSERT=URL+"insert.php";
+       public static final String URL_LOGINCHECK=URL+"loginQuery.php";
+       public static final String URL_RETRIEVE=URL+"retrieveRegistration.php";
+       public static final String URL_UPDATE=URL+"update.php";
+       public static final String URL_ITEMINSERT=URL+"insertitem.php";
+       public static final String URL_DELETE_ITEM=URL+"deleteUserItem.php";
+       public static final String URL_RETRIEVE_ITEM=URL+"retrieveItem.php";
+       public static final String URL_RETRIEVE_USERITEM=URL+"retrieveUserItems.php";
+       public static final String URL_RETRIEVE_ALLITEMS=URL+"retrieveALL.php";
+       public static final String URL_UPDATE_ITEM=URL+"updateItem.php";
+       public static final String URL_RETRIEVE_PHONENO=URL+"rPhoneNo.php";
 
 
 }
